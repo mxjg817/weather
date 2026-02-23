@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:background="@drawable/bg_qing">
+
+    <TextView
+        android:id="@+id/tv_weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        tools:text="2021-02-24星期日" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:src="@drawable/cloud" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_tem"
+        tools:text="25°C - 33°C"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        />
+
+
+
+
+</LinearLayout>
